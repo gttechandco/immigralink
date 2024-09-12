@@ -1,0 +1,25 @@
+.title {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    color: mediumslateblue;
+    text-align: justify;
+}
+
+.paragraph {
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+@keyframes slidein {
+    from {
+        opacity: 10%;
+        transform: translateY(25%);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}

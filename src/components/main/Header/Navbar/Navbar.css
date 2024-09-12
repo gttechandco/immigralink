@@ -1,0 +1,65 @@
+.navbar {
+    background-color: white;
+    font-family: "Segoe UI Light";
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: flex;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    transition: all ease-in-out 0.3s;
+    text-align: center;
+
+    .nav-list {
+        list-style-type: none;
+        padding: 10px;
+        margin: 5px;
+        display: inline;
+        text-align: center;
+        transition: all ease-in-out 0.3s;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 5rem;
+
+        .nav-element {
+            margin: 1.1rem;
+            padding: 2px;
+            background-color: whitesmoke;
+            border-radius: 35px;
+            padding: 0.7rem;
+            justify-content: center;
+            align-items: center;
+            display: inline;
+            text-align: center;
+            transition: all ease-in-out 0.3s;
+
+            .list-icons {
+                transition: all ease-in-out 0.3s;
+                padding: 5px;
+            }
+        }
+
+        .nav-element {
+            .list-text {
+                font-size: 0.5em;
+                min-width: 80px;
+                transition: all ease-in-out 0.3s;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .nav-element:hover {
+            transition: all ease-in-out 0.3s;
+            background-color: rgba(0, 0, 0, 0.8);
+            .list-text, .list-icons {
+                color: cyan;
+                transition: all ease-in-out 0.3s;
+            }
+        }
+
+    }
+}

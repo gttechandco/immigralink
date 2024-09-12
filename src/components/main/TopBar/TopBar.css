@@ -1,0 +1,41 @@
+/* src/components/Topbar.css */
+.topbar {
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: #f8f9fa; /* Couleur de fond */
+    border-bottom: 1px solid #ddd; /* Bordure en bas */
+    width: 100%;
+}
+
+.topbar-announcements {
+    flex: 9;
+    overflow: hidden; /* Cache le contenu qui dépasse */
+    white-space: nowrap;
+    color: #333;
+    font-size: 14px;
+    width: 100%;
+}
+
+.scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.topbar-phone {
+    flex: 3;
+    text-align: right;
+    font-weight: bold;
+    color: #007bff; /* Couleur du texte */
+    font-size: 14px;
+}

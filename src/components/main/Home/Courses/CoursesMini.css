@@ -1,0 +1,43 @@
+.courses {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px ;
+    background: rgba(0, 0, 0, 0.01);
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    min-height: 80vh;
+
+    .section-title {
+        padding: 2rem;
+        h2 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 3.8em;
+            font-weight: bold;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 850px;
+        }
+    }
+
+    .courses-cards {
+        height: 420px;
+        width: 350px;
+        text-align: center;
+        justify-content: center;
+        text-align: justify;
+
+        .card-header {
+            border: none;
+            height: 300px;
+            background-color: transparent;
+            margin-bottom: 2rem;
+        }
+
+        .card-img-top {
+            height: 180px;
+            margin-top: 0;
+        }
+    }
+}

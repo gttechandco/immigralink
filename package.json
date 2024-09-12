@@ -3,11 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.0.2",
+    "@mui/material": "^6.0.2",
+    "@mui/styles": "^6.0.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.20.5",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "jwt-decode": "^4.0.0",
+    "notistack": "^3.0.1",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^6.26.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -34,5 +49,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

@@ -1,0 +1,17 @@
+/* Navbar.css */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .navbar-toggler {
+    border-color: transparent;
+  }
+  
+  .navbar-brand button {
+    border: none;
+    background: transparent;
+  }
+  
+  .navbar-brand button:hover {
+    background-color: transparent;
+  }  

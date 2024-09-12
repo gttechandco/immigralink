@@ -1,0 +1,30 @@
+.aboutus-mini {
+    height: auto;
+    padding: 5rem;
+
+    .aboutus-left-side {
+        padding: 2.5rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section-title {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 3.8em;
+    }
+
+    .section-description {
+        padding: 2rem;
+        text-align: center;
+        font-family: Segoe UI Light;
+        font-size: 1.2em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-image {
+        width: 750px;
+        height: 600px;
+    }
+}

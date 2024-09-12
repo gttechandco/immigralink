@@ -2,8 +2,10 @@
 
 # dependencies
 /node_modules
+/immigralink-manager
 /.pnp
 .pnp.js
+
 
 # testing
 /coverage

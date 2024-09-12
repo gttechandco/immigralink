@@ -1,0 +1,36 @@
+.footer {
+    padding: 3rem;
+    margin-top: 2rem;
+    background: linear-gradient(134deg, #333 25%, #333555 75%);
+    color: whitesmoke;
+
+    h2 {
+        font-size: 5.8em;
+        text-align: left;
+        color: dimgray
+    }
+
+    h6 {
+        text-align: left;
+        color: gainsboro;
+        font-size: 1.7em;
+    }
+
+    .slug {
+        text-align: left;
+        font-size: 0.9em;
+        color: white;
+    }
+
+    .utilsLinksTitle {
+        text-align: left;
+    }
+
+    .linkList {
+        text-align: left;
+        li a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+    }
+}

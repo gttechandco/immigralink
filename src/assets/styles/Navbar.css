@@ -1,0 +1,81 @@
+.mynavbar{
+    padding: 1.5rem;
+    .bi{
+        margin-right: 4px;
+    }
+}
+
+.nav-link a{
+    font-family: Segoe UI Light;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 1.1rem;
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
+.nav-link a:hover{
+    transition: ease-in-out 0.150s;
+    border-bottom: 3px solid mediumslateblue;
+    color: mediumslateblue;
+}
+
+#mynavbar .navbuttons{
+    border: none;
+}
+
+.navbuttons:hover{
+    transition: ease-in-out 0.3s;
+    opacity: 65%;
+}
+
+/*Media Queries */
+@media screen and (max-width: 1680px) {
+    .nav-link a {
+        font-size: 15px;
+        margin: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .nav-link a {
+        font-size: 15px;
+        margin: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .nav-link a {
+        font-size: 15px;
+        margin: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .nav-link a {
+        font-size: 15px;
+        margin: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .nav-link a {
+        font-size: 15px;
+        margin: 0.4rem;
+    }
+
+    .nav{
+        display: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-link a {
+        font-size: 15px;
+        margin: 0.4rem;
+    }
+
+    .nav{
+        display: hidden;
+    }
+}

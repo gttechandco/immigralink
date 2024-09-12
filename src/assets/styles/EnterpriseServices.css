@@ -1,0 +1,60 @@
+@keyframes slideinServices {
+    from {
+        opacity: 60%;
+        transform: translateX(25%);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+.services {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.services-title {
+    animation-duration: 3s;
+    animation-name: slideinServices;
+    animation-iteration-count: 1;
+}
+
+.services-paragraph {
+    animation-duration: 3s;
+    animation-name: slideinServices;
+    animation-iteration-count: 1;
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+.services-card {
+    text-align: justify;
+    font-family: Segoe UI Light;
+    transition: all ease-in-out 0.3s;
+    min-height: 600px;
+
+    .card-header, .card-footer {
+        background: transparent;
+    }
+}
+
+.services-card:hover{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    transition: all ease-in-out 0.3s;
+    box-shadow: 2px 5px 20px 0 black;
+
+    .card-title {
+        color: slateblue
+    }
+}
+
+
+/*Media queries*/
+@media screen and (max-width: 1280px) {
+    .services-card {
+        margin: 2rem;
+    }
+}

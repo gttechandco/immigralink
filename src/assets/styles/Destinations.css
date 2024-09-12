@@ -1,0 +1,40 @@
+@keyframes addPaddingRemovePadding {
+    from {
+        padding: 0;
+        transition: ease 0.2s;
+    }
+
+    to {
+        padding: 0.4rem;
+    }
+}
+
+.destinations {
+    background: linear-gradient(135deg, #333 75%, #333555 25%);
+
+    .paper {
+        background: linear-gradient(135deg, #333 25%, #333555 75%);
+    }
+}
+
+#destinationCard{
+    #cardImage {
+        transition: ease 0.5s;
+    }
+    min-height: fit-content;
+    padding-bottom: 2rem;
+}
+
+#destinationCard:hover{
+    #cardImage {
+        animation-duration: 0.8s;
+        animation-name: addPaddingRemovePadding;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+    
+}
+
+.paragraph {
+    text-align: justify;
+}

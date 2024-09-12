@@ -1,0 +1,56 @@
+/* Main Layout Styles */
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Secondary Layout Styles */
+.secondary-layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+/* Administration Layout Styles */
+.admin-layout {
+    display: flex; /* Change la direction du flex en ligne */
+    flex-direction: row; /* Permet d'afficher les éléments côte à côte */
+    min-height: 100vh;
+    width: 100%;
+    overflow: auto;
+}
+
+.admin-content {
+    display: flex;
+    flex: 1;
+    padding: 20px; /* Optionnel : pour ajouter de l'espace autour du contenu */
+    background-color: #2a2b3b; /* Optionnel : pour différencier le contenu */
+    margin-left: 230px;
+}
+
+.sidebar-collapsed .admin-sidebar {
+    width: 60px; /* Largeur de la sidebar réduite */
+  }
+  
+  .sidebar-collapsed .admin-links .list-text {
+    display: none;
+  }
+
+.form-layout {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
