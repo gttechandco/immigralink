@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.547bb736.css",
+    "main.js": "/static/js/main.3c62d5f6.js",
+    "static/js/453.e26147ff.chunk.js": "/static/js/453.e26147ff.chunk.js",
+    "static/media/london.jpg": "/static/media/london.fa6a7eefd8d248171dea.jpg",
+    "static/media/japan.jpg": "/static/media/japan.c120406610fd5b868cfc.jpg",
+    "static/media/eiffel-tower.jpg": "/static/media/eiffel-tower.344f9314b2c7f6384227.jpg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/ajouter-image.jpg": "/static/media/ajouter-image.19b5a2b5653ad85acefe.jpg",
+    "static/media/Capture2.PNG": "/static/media/Capture2.4bc8d0c1dccf12831ffc.PNG",
+    "static/media/Capture3.PNG": "/static/media/Capture3.c8594cb067433180a851.PNG",
+    "static/media/Capture.PNG": "/static/media/Capture.0a9991b6845306ba5bba.PNG",
+    "static/media/manager-logo.png": "/static/media/manager-logo.2c155b2f900a68135fd0.png",
+    "index.html": "/index.html",
+    "main.547bb736.css.map": "/static/css/main.547bb736.css.map",
+    "main.3c62d5f6.js.map": "/static/js/main.3c62d5f6.js.map",
+    "453.e26147ff.chunk.js.map": "/static/js/453.e26147ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.547bb736.css",
+    "static/js/main.3c62d5f6.js"
+  ]
+}
